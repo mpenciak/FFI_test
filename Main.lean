@@ -1,4 +1,5 @@
+import FFI.S
+
 def main : IO Unit := do
   IO.println (← IO.getEnv "HOME")
-
-#eval main
+  IO.println $ foo 3 2

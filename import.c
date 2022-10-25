@@ -21,3 +21,7 @@ extern lean_obj_res lean_get_env_var() {
     }
     return arr;
 }
+
+extern lean_obj_res lean_add(uint32_t a, uint32_t b) {
+    return a + b;
+}
